@@ -1,7 +1,7 @@
-// (a) Create an array of strings
+//  Create an array of strings
 let Tasks = ["work", "Eat", "Study"];
 
-// (b) Create an addTask function
+//  Create an addTask function
 let addTask = (task) => {
     Tasks.push(task);
     console.log(task + " has been added to my Tasks.");
@@ -11,7 +11,7 @@ let addTask = (task) => {
 // Test addTask
 addTask("sleep");
 
-// (c) Create a listAllTasks function
+//  Create a listAllTasks function
 let listAllTasks = () => {
     Tasks.forEach((task) => {
         console.log(task);
@@ -21,7 +21,7 @@ let listAllTasks = () => {
 // Test listAllTasks
 listAllTasks();
 
-// (d) Create a deleteTask function
+//  Create a deleteTask function
 let deleteTask = (task) => {
     let index = Tasks.indexOf(task);
 
